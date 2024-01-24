@@ -172,6 +172,7 @@ i {
 .about-description p {
   margin-bottom: 14px;
   line-height: 150%;
+  text-align: justify;
 }
 
 @media screen and (max-width: 768px) {
@@ -385,6 +386,9 @@ i {
   .forms-container {
     display: block;
     padding-bottom: 5px;
+  }
+  .forms-widgets {
+    text-decoration: none;
   }
   .maps {
     overflow: hidden;
